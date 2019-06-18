@@ -1,0 +1,11 @@
+<% include ../partials/header %>
+
+<% movieData["Search"].forEach(function(movie) { %>
+    <% var mposter = movie["Poster"];
+       var mtitle = movie["Title"];
+       var myear = movie["Year"];
+       var mplot = movie["Plot"];
+    %>
+    <a href="../wantedMovie?poster=<%=mposter%>&title=<%=mtitle%>&year=<%=myear%>" ><img src="<%= movie["Poster"] %>"></a>
+    <strong><li>Name: <%= movie["Title"] %> - Year: <%= movie["Year"]%> - IMDB-ID <%= movie["imdbID"] %> </li></strong>
+<% }) %>

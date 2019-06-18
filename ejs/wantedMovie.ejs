@@ -1,0 +1,11 @@
+<% include ../partials/header %>
+
+
+<h1>this is the movie you clicked on</h1>
+
+    <%console.log(req.query.title);%>
+    <img src="<%= req.query.poster %>">
+    <strong><li>Name: <%= req.query.title %> - Year: <%= req.query.year%>  </li></strong>
+    <br>
+
+<h4><%=req.query.plot%></h4>

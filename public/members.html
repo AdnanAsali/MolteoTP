@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Molteo-Movies</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-w+8Gqjk9Cuo6XH9HKHG5t5I1VR4YBNdPt/29vwgfZR485eoEJZ8rJRbm3TR32P6k" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+		<div class="container">
+		  <a class="navbar-brand" href="#">
+				<img src="https://molteo.de/imgs/Logo_yellow.svg" alt="">
+			  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+		  <div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item active">
+				<a class="nav-link" href="#">Home
+					  <span class="sr-only">(current)</span>
+					</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Services</a>
+			  </li>
+			  <li class="nav-item">
+				<H4>Welcome <span class="member-name"></span></H4>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	  
+    <div class="container">
+    	<div class="jumbotron">
+	    	<h3 class="text-center">Search For Any Movie</h3>
+	    	<form id="searchForm" action="/movieInfo" method="GET">
+    			<input id="searchText" class="form-control" type="text" name="wantedMovie" placeholder="Search for Movie ..">
+    		<button>GO!</button> -->
+		 </form>
+	    </div>
+		</div>
+		
+
+		<div class="container">
+      <div id="movies" class="row"></div>
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+</body>
+</html>

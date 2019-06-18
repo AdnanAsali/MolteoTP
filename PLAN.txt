@@ -1,0 +1,28 @@
+STACK:
+    1- Node.js.
+    2- Express.js.
+    3- Moment.js.
+    4- Socket.IO.
+    5- ESLint.
+    6- Relational DB: MYSQL.
+    7- Passport.js.
+    8- Dockers.
+
+FLOW OF PROJECT:
+    A. User Registers to the website sign In/Up.
+    B. Then the user is redirected to the main page where they will find:
+        I)   Search Bar.
+        II)  Featured/Popular Movies/TV shows.
+        III) News feed about the good movies added by other users.
+    C. When the user clicks on the movie's thumbnail they get redirected to an informative page about the movie they have chosen where it will show a small trailer of the movie.
+
+TASKS:
+    DONE 1- Setup the node module and all the required dependacies for the project. 
+    DONE 2- Setup the OMDB API and make it display all the needed data about movies (landing page/search).
+    DONE 3- Make the (movie Information) page where it shall show the Name, Year, Poster, !!Trailer.
+    4- Create a MYSQL DB and make the authentication using Passpprt.js. and make the create profile page VIP.
+    5- Study and understand the Socket.IO framework and how to deploy it in the project.
+    6- Create the audit.log and try to use Momentjs here .
+    7- Make the frontend more beautiful and user frinedly.
+    8- Study and deploy Dockers in the project if there is still some time to do so.
+    9- ...
